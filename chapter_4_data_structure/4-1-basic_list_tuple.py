@@ -18,6 +18,26 @@ students.insert(2,['asp', 'php'])
 print(students)#['Bob', 'Tom', ['asp', 'php'], 'Adm', 10, True]
 print(students[2][1])#php
 
+sentence = 'I love Python.'
+print(sentence[0])#I
+print(sentence[-3:])#on.
+a = 'a'
+b = 'b'
+a = a + b 
+print(a)#ab
+print(a*3)
+
+students= ['Jerry','Tom','Adm',10, True]
+print(students[0])#Jerry    this is a element
+print(students[-1:])#[True] this is a list
+c = ['c']
+d = ['d']
+c = c + d
+print(c)#['c', 'd']
+print(d)#['d']
+print(d*3)#['d', 'd', 'd']
+
+
 #Tuple Example: can not change after create.
 print('\nTuple example:')
 tuple_1 = (1,2,'string',True)
