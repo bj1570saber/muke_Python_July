@@ -4,6 +4,8 @@ print('abce'<'abd')
 print([1,2,3,5]<[1,2,4])
 #Tuple comparison: compare indivitual by order. 
 print((1,2,3,5)<(1,2,4))
+print(1==1)#True
+print()
 
 #logical operator
 print(1 and 1)#1
