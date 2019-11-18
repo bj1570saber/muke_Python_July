@@ -1,0 +1,1 @@
+print("When 'new' package was import, __init__.py will be invoke.")
