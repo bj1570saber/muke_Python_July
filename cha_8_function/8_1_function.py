@@ -14,8 +14,9 @@ print(z)# 3.142
 
 '''
 main purpose of funcion:
-functional
+functionality
 encapsulation
-avoid writing  duplicate codes
+code reusable
 increase readability
 '''
+
