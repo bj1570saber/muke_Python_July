@@ -1,0 +1,3 @@
+from ..m4 import m # . same level    .. upper level  ...   ....
+m = 4
+print (__package__)
