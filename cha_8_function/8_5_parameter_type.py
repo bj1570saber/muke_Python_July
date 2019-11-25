@@ -4,7 +4,7 @@ def double_skill_1_combine(skill_1,skill_2):
 # 1.必须参数：
 print(double_skill_1_combine(1,2))# 4
 
-# 2.关键字参数 keyword parameter：arguemnts' order doesnt mmatter.
+# 2.关键字参数 keyword parameter：arguemnts' order doesnt matter.
 d = double_skill_1_combine(skill_2 = 2, skill_1 = 1 )
 print(d)# 4
 

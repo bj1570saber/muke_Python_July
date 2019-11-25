@@ -44,3 +44,8 @@ demo_3('a',1,2,3,4,'param')
 # a
 # 2
 # (1, 2, 3, 4, 'param')
+
+# demo_2 and demo_3 are too complicate. 
+# Even not stable in different version of python.
+
+# Keep parameter simple for other programer to use.
