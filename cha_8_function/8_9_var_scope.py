@@ -16,12 +16,26 @@ print(d)
 print('~' * 20)
 # python allow to access for loop variable
 def demo_1():
-    c = 50
+    e = 50
     # python does not have block scope. For loop is a block scope
     for i in range(0,9):
         a = 'a'
-        c += 1
-    print(c)#59
+        e += 1
+    print(e)#59
     print(a)# a
 
 demo_1()
+
+print('~' * 20)
+f = 1
+def func1():
+    f = 2
+    def func2():
+        #f = 3
+        print(f)
+    func2()
+    print(f)
+func1()
+print(f)
+
+
