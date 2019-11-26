@@ -28,7 +28,7 @@ demo_1()
 
 print('~' * 20)
 f = 1
-def func1():
+def func1():#链式，作用域链
     f = 2
     def func2():
         #f = 3
@@ -37,5 +37,3 @@ def func1():
     print(f)
 func1()
 print(f)
-
-
