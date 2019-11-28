@@ -1,18 +1,18 @@
 # Binary
 print(0b11) #3
 print(0b100)#4
-print()
+print('~'*10)
 # Octonary
 print(0o7) #7
 print(0o10)#8
-print()
+print('~'*10)
 # Hexadecimal
 print(0xF)
 print(0x10)
-print()
+print('~'*10)
 # Decimal
 print(11)
-print()
+print('~'*10)
 
 print('Convert to binary:')
 print('4 to binary: %s' %bin(4)) # 4 
