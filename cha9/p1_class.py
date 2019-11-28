@@ -30,6 +30,6 @@ student1 = Student()
 student1.introduce()
 student1.do_homework()
 
-a = student1.__init__()#return default None
-print(type(a))
-print(a)
+a = student1.__init__()#return default None to a
+print(type(a))# <class 'NoneType'>
+print(a)# None
