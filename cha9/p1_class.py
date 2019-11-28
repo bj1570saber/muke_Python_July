@@ -9,6 +9,15 @@ class Student():
     name = ''
     age = 0
     # functions
+    def __init__(self): #constructor
+        print('student')
+        # return None # only return None (default or explicit).
+
+    # def __init__(self, name, age):
+    #     self.__init__()
+    #     self.name = name
+    #     self.age = age
+
     def introduce(self):
         print('name: ' + self.name)
         print('age: '+ str(self.age))
@@ -17,7 +26,10 @@ class Student():
         print("do_homework")
 
 #test:
-student = Student()
-student.introduce()
-student.do_homework()
+student1 = Student()
+student1.introduce()
+student1.do_homework()
 
+a = student1.__init__()#return default None
+print(type(a))
+print(a)
