@@ -28,4 +28,4 @@ print(bool({1:2,3:4})) # True
 #print(bool({}))     # False
 
 print('\nNull:')
-print(bool(None))
+print(bool(None)) # False
