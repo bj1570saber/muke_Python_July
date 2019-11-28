@@ -1,17 +1,23 @@
-# 面向对象
-# 有意义的面向对象
-# 类 = 面向对象
-# 类最基本的作用：封装
+# Object Oriented -> meaningful
+# class => Object Oriented
+# class is a reflection of real world elements.
+# Basic function of class：encapsulation
+# class encapsulates data(fields) and actions(functions) of same kind of objects.
 
 class Student():
+    # fields
     name = ''
     age = 0
-
-    def print_file(self):
+    # functions
+    def introduce(self):
         print('name: ' + self.name)
         print('age: '+ str(self.age))
+    
+    def do_homework(self):
+        print("do_homework")
 
 #test:
-# student = Student()
-# student.print_file()
+student = Student()
+student.introduce()
+student.do_homework()
 
