@@ -2,14 +2,13 @@ class Student():
     name = 'None'
     age = 0
     
-    def __init__(self, name, age):# 'self' can be any words such as 'this'
-        self.name = name # object field 'self.name'
-        self.age = age # object field 'self.age'
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age 
         print('constructor of '+ self.name)
         print(name)
         print(age)
-        # return None # only return None (default or explicit).
-
+        
 student1 = Student("Jerry", 20)
 print(student1.__dict__)#{'name': 'Jerry', 'age': 20}
 # search variable path:

@@ -1,8 +1,3 @@
-# Object Oriented -> meaningful
-# class => Object Oriented
-# class is a reflection of real world elements.
-# Basic function of class：encapsulation
-# class encapsulates data(fields) and actions(functions) of same kind of objects.
 
 class Student():
     # class fields
@@ -10,7 +5,7 @@ class Student():
     name='null'
     age = 1
     # functions
-    def __init__(self, name, age): #constructor
+    def __init__(self, name, age): # 'self' can be any words such as 'this'
         self.name = name # object field 'self.name'
         self.age = age # object field 'self.age'
         print('constructor of '+ self.name)
