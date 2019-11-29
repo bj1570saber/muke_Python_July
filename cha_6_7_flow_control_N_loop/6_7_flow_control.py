@@ -1,4 +1,4 @@
-s = input('Score(1-100): ') # s is String
+s = input('Input Score(1-100): ') # s is String
 s = int(s)
 if s >= 90:
     print('A')
@@ -13,16 +13,16 @@ a = [] # False
 if a:
     print('if')
 else:
-    print('else')
+    print('else') # print else
 
 #short cut study case:
 a = 7
 b = 0
 #return not False value between a and b
 if a:
-    print(a)
+    print(a) # 7
 elif b:
     print(b)
 
-#Better way:
+# Better way:
 print(a or b)
