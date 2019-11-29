@@ -1,11 +1,11 @@
-from init_folder import *
+from init_folder import * #this import modules in init_folder
 print(allowed_import.ai_1)
 #print(not_allowed_import.nai_1) # error, __init__.py does not allowed to 
 # import 'not_allowed_import'
 
 
 #import sys
-import init_folder
+import init_folder # this import __init__
 '''
 If multiple .py modules need many common import modure.
 please the import moduls in __init__.py
