@@ -35,15 +35,21 @@ print(tuple_1[-4:-2])#('a', 'b')
 
 print('\nComplexed slice:')
 # [start index, stop index, interval vector] vector has direction!!!!!!!!!!!!
-# str_1 = 'Hello World'
-# from index 1 to 8, pick first elements every two elements interval.
+# str_1 = 'H el lo  W or ld'
+# from index 1 to 8, take a element every 2 element.
 print(str_1[1:8:2])#el o
-# from index 1 to 8, pick first elements every three elements interval.
+# from index 1 to 8, pick a element every 3 elements.
+# str_1 = 'H ell o W orl d'
 print(str_1[1:8:3])#eoo
 print()
-# from index -1 to -8, pick last elements every two elements interval.
-print(str_1[-1:-8:-2])#drWo
-# from index -1 to -8, pick last elements every three elements interval.
+
+# all negative number:
+# from index -1 to -8, pick a element every two elements.
+# str_1 = 'Hel lo  W or ld'
+print(str_1[-1:-8:-2])#drWo direction from right to left
+
+# from index -1 to -8, pick a element every three elements.
+# str_1 = 'He llo  Wo rld'
 print(str_1[-1:-8:-3])#doo
 #https://blog.csdn.net/xiaofeiyu321/article/details/82941765
 
@@ -53,20 +59,24 @@ print("\n'in' function:")
 print(2 in list_1)#True
 print(3 not in list_1)#False
 
+#len()
 print("\n'len()' function:")
 print(len(list_1))#6
 
+#max()
 str_2 = 'HelloWorld'
 print("\n'max()' function:")
 print(max(list_1))#6
 print(max(tuple_1))#d
 print(max(str_2))#r ASC II 
 
+#min()
 print("\n'min()' function:")
 print(min(list_1))#1
 print(min(tuple_1))#a
 print(min(str_2))#H
 
+#ord()
 print("\nord(), return ASC II order:")
 print(ord('r'))#114
 print(ord('H'))#72
