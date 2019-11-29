@@ -13,7 +13,8 @@ for x in range(0,len(a)):
     print(a[x], end = ', ')# 1, 2, 3, 4, 5, 6,
 print()
 
-a = [1,2,3,4,5,6]
+# -1 0 1 2 3 4 5 6
+a = [1,2,3,4,5,6]#(5 -> -1)
 for x in range(len(a)-1, -1, -1): # reverse order
     print(a[x], end = ', ')# 6, 5, 4, 3, 2, 1, 
 print()
