@@ -21,7 +21,7 @@ print(a)#8
 a /= 2
 print(a)#4.0
 a //= 2
-print(a)#2.0
+print(a)#2.0 #!!! 
 print(4//2)#2
 print(5//2)#2
 print(4%3)#1

@@ -7,7 +7,8 @@
 '''
 
 #http://net-informations.com/faq/general/valuetype-referencetype.htm
-#值类型-Value type：int, str, tuple,
+
+#值类型-Value type：int, str, tuple,???
 '''
 A Value Type stores its contents in memory allocated on the stack. 
 A single space in memory is allocated to store the value and 
@@ -15,8 +16,8 @@ that variable directly holds a value. If you assign it to another variable,
 the value is copied directly and both variables work independently.
 (copy by value)
 '''
-
-#https://blog.csdn.net/qq_28632639/article/details/86689278
+# this link introduces copy by reference, shadow copy, deepcopy in python
+# https://blog.csdn.net/qq_28632639/article/details/86689278
 # int, str, tuple (immutable)
 
 # str: copy by reference
