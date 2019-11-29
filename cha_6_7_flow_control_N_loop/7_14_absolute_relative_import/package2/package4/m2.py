@@ -1,3 +1,4 @@
 from ..m4 import m # . same level    .. upper level  ...   ....
-m = 4
+#relative import
+m = 6
 print (__package__)

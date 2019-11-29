@@ -8,7 +8,7 @@ file: /Volumes/Jetdrive_BZ/Study/Python/Learning_notes/Muke_July/cha_6_7_flow_co
 '''
 print('~' * 20)
 print("7_12 codes: ")
-print('\nname: '+ (__name__ or 'print name error.'))
+print('name: '+ (__name__ or 'print name error.'))
 print('package: '+(__package__ or 'not belong to any package.')) 
 print('doc: '+ (__doc__ or 'No documentation.'))
 print('file: '+ (__file__ or 'No file path.'))

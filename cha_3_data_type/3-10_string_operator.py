@@ -4,8 +4,8 @@ print('\nHello.'[0])
 print('\nHello.'[1])#H
 print('\nHello.'[2])#e
 print('\nHello.'[3])#l
-print()
-
+print()# () ????
+print(type('Hello'))
 print('\nHello.'[-1])#.
 print('\nHello.'[-2])#o
 print('\nHello.'[-3])#l
