@@ -8,7 +8,7 @@ print(set_1)#{1, 2, 3, 4, 5, 6} remove duplicated items
 set_2 = {3,4,8}
 print(set_1 - set_2)#remove set_2 elements.{1, 2, 5, 6}
 print(set_1 & set_2)#{3,4} find out intersection.
-print(set_1 | set_2)
+print(set_1 | set_2)# {1, 2, 3, 4, 5, 6, 8}
 
 print('\nCreate a empty Set:')
 print(type({}))#<class 'dict'>
