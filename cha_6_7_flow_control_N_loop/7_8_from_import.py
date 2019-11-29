@@ -1,5 +1,7 @@
 from c7 import c,c_2 # import variable
-from new import c1 # import module
+from new import c1 # import module. invoke: new.__init__.py
+#this import will print: 'When 'new' package was import, __init__.py will be invoke.'
+
 from new.c2 import *
 from new.c3 import c3_1, c3_2,\
     c3_3 # If import too many variable. use \ start a new line or ()
