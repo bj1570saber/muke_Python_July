@@ -7,7 +7,7 @@ print(z)# 3.141
 #funciton:
 print(round(a,3))# 3.142
 
-# Fix algorithm:
+# manual fix algorithm:
 a = 3.1415926
 z = (a * 1000 + 0.5)//1/1000 #round up by +0.5
 print(z)# 3.142
