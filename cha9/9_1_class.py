@@ -20,6 +20,6 @@ class Student():
 #test:
 student = Student()# default constructor
 student.print_file()# print class default variable values
-#name: 
+#name: $
 #age: 0 
 
