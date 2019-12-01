@@ -16,6 +16,13 @@ class Student():
         print("cls.name: " + cls.name)#this print Studnet.name; 
         # can not access object field.
 
+    #staticmethod can be replace by classmethod. 
+    # It's similar to object function and class function,
+    # but lack of parameter(cls, self)
+
+    # If a method not relate to class and object, 
+    # can as a static method, lack of Object Oriented Programming.
+
     @staticmethod
     def get_sum():# no self or cls parameter
         print('Static method get_sum: ' + str(Student.sum))# access class field
