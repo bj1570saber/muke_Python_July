@@ -6,3 +6,6 @@ class Human():
     
     def get_name(self):
         print(self.name)
+
+    def do_homework(self):
+        print("Human doing homework.")
