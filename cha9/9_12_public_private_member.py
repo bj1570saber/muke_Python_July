@@ -1,8 +1,8 @@
 class Student():
-    sum = 0
-    #name = 'None'
-    #age = 0
-    
+    __sum = 0
+    __name = 'None'
+    __age = 0
+    __score = 0
     def __init__(self, name_p, age_p):
         self.name = name_p 
         self.age = age_p
@@ -11,25 +11,32 @@ class Student():
 
     def marking(self, score_p):
         if score_p < 0:
-            return "score can not be negtive."
+            print("score can not be negtive.")
+            return
         self.score = score_p
         print(self.name + '\'s score: ' + str(self.score))
 
     def do_homework(self):
-        self.do_eng_homework#内部调用
-        print(self.name +" is doing homework.")
-    
-    def do_eng_homework(self):
-        print(self.name +" is doing homework.")
+        # self.name not self.__name
+        print(self.name + " finish his/her homework.")
+        self.marking(100)#内部调用
 
 student1 = Student("Jerry", 20)
+
 student1.do_homework()#外部调用
-result =student1.marking(59)
-if result is not None:
-    print(result)
-result =student1.marking(-1)
-if result is not None:
-    print(result)
+student1.marking(59)
+student1.marking(-1)
+# following line creat and assign a value to 
+# a new private variable of student1.
+# this is dynamic programming language feature.
+student1.__new_score = -1 # is not access private variable.
+print(student1.__new_score)
+
+# for example: following direct to access object none exist private variable:
+student2 = Student('Tom', 21)
+#print(student2.__new_score_2)# AttributeError: 
+#'Student' object has no attribute '__new_score_2'
+
 # output:
 # constructor of Jerry
 # Jerry is doing homework.
