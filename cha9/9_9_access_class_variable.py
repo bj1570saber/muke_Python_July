@@ -11,9 +11,10 @@ class Student():
         print(self.__class__)# output: <class '__main__.Student'>
         # This is another way to access Class field:
         print(self.__class__.name) # output: None
-
-    def do_homework(self):
-        print(self.name +" is doing homework.")
+        # self.__class__.name is a better way to accees 
+        # since class name may change or inheritance. 
+        # The child class can not access it by Student.name in child class.
+        
 student1 = Student("Jerry", 20)
 # output:
 # constructor of Jerry
