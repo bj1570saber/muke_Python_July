@@ -2,11 +2,12 @@ class Student():
     __sum = 0
     __name = 'None'
     __age = 0
-    __score = 0
+    #__score = 0
     def __init__(self, name_p, age_p):
         self.__name = name_p 
         self.__age = age_p
-        self.__score = 0
+        self.__score = 6 
+        # declare private variable in constructor OK
         print('constructor of '+ self.__name)
 
     def marking(self, score_p):
@@ -31,6 +32,8 @@ print(student1.__name)# output: feng
 print(student1.__dict__)#{'_Student__name': 'Jerry', 
 # '_Student__age': 20, '_Student__score': 0, '__name': 'feng'}
 # private __name -> change name to _Student__name
+print(student1._Student__name)# output Jerry
+# Python:low protection of private variable.
 
 student1.do_homework()#外部调用 Jerry finish his/her homework.
 student1.marking(59)# Jerry's score: 59
@@ -45,7 +48,7 @@ student2 = Student('Tom', 21)
 # output:
 # constructor of Jerry
 # feng
-# {'_Student__name': 'Jerry', '_Student__age': 20, '_Student__score': 0, '__name': 'feng'}
+# {'_Student__name': 'Jerry', '_Student__age': 20, '_Student__score': 6, '__name': 'feng'}
 # Jerry finish his/her homework.
 # Jerry's score: 100
 # Jerry's score: 59
