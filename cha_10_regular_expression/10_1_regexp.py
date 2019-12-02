@@ -6,7 +6,7 @@ import re
 a = 'C|Python|C++|C#|Java|Javascript|Python'
 print(a.index('Python')>1)#True
 print('Python' in a)#True
-r = re.findall('Python', a)
+r = re.findall('Python', a)# regular expression
 if len(r) > 0:
     print('str includes "python"')
 else:
