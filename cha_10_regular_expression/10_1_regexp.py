@@ -1,6 +1,7 @@
 import re
 # A regular expression, regex or regexp is a sequence of 
 # characters that define a search pattern.
+#RegEx can be used to check if a string contains the specified search pattern.
 
 # example: if string a includes Python-
 a = 'C|Python|C++|C#|Java|Javascript|Python'
