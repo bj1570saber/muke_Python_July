@@ -1,6 +1,7 @@
 import re
 s = "abc, acc, adc, aec, afc, ahc"
-
+# '[]' : 或 or
+# '()' : 且 and
 r = re.findall('a[cf]c', s)# filter out acc or afc
 print(r)
 
