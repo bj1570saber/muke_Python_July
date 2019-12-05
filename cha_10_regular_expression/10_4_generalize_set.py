@@ -2,7 +2,7 @@
 # \d digit, \D not digit
 # \w (word char) digit + alphabet \W not word char
 # \s blank character \S: not blank character
-
+# . match all char except "\n" next line char
 import re
 a = 'python 11\t11\njava&678\rphp__'
 w = re.findall('\w', a)#[A-Za-z0-9]
