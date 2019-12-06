@@ -1,11 +1,11 @@
 import re
 a = 'PythonPythonPythonJSPythonPython'
 #
-r = re.findall('(Python){3}', a)
+r = re.findall('(Python){3}', a)#'PythonPythonPython'
 print(r)#['Python']
 
 #
-r = re.findall('(Python){6}', a)
+r = re.findall('(Python){4}', a)
 print(r)#[]
 
 #
