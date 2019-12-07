@@ -23,3 +23,12 @@ print(type(json_str))#<class 'str'>
 print(json_str)#[{"name": "qiyue", "age": 18, "flag": false}, 
                # {"name": "Tom", "age": 20}]
 # NoSQL Database: good to save object data
+
+'''
+JSON: A light weight data exchange format;
+      A subset of JavaScript Programming Language, 
+      Standard ECMA-262 3rd Edition - December 1999;
+JSON String: A String that writen in JSON format:'{"a": "Hello", "b": "World"}'
+JSON Object: only appear in JavaScript
+
+'''

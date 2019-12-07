@@ -1,4 +1,5 @@
 # JSON: a light weight data exchange format.(compare to XML)
+# (JavaScript Object Notation)
 # Use: 1.Communication language between two or more programming languages.
 #      2.Website frontend and backend communication.
 #      3.JSON charactor string: JSON format string {"name":"Jerry"}
