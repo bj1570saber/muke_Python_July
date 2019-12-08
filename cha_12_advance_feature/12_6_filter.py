@@ -12,3 +12,9 @@ print(list(r))#[1, 3, 4, 6, 8]
 list_l = ['A','a','b','B','C','c']
 l = filter(lambda x: True if x.isupper() else False, list_l)
 print(list(l))#['A', 'B', 'C']
+
+#imperative programming
+# for loop; if else
+
+#functional programming
+# map,reduce,filter,  lambda
