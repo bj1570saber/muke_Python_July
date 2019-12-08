@@ -1,4 +1,5 @@
 import time
+# No decorator example:
 
 def f1():
     print('This is f1')
