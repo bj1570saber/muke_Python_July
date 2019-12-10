@@ -1,0 +1,6 @@
+target:
+    host name + watching number
+method：
+    find web page, find target tags.
+    
+HTTP request -> retrieve host name tag info, watching number
