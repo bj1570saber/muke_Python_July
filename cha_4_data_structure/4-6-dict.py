@@ -25,8 +25,15 @@ print('~'*20)
 # update value    
 d['Bob'] = 3.14
 print(d['Bob']) # 3.14
+print('~')
 
-d.setdefault('add','new')
+print(d)#{'a': {1: 2, 3: 4}, 'Bob': 3.14, 'Michael': 95, 'Tracy': 85}
+print(d.setdefault('add','new'))#new
+print(d)#{'a': {1: 2, 3: 4}, 'Bob': 3.14, 'Michael': 95, 'Tracy': 85, 'add': 'new'}
+print(d.setdefault('add','another'))#new
+print(d)
+print('~')
+
 # Delete a value:
 d.pop('Michael')
 print(d)# {'a': {1: 2, 3: 4}, 'Bob': 3.14, 'Tracy': 85, 'add': 'new'}
