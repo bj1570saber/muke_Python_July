@@ -1,4 +1,4 @@
-#数量词
+# [a-z]{数量词}
 import re
 a = 'pythonn1111java678php'
 # Python default greedy filter(as long as possible).

@@ -5,7 +5,9 @@ import re
 
 # example: if string a includes Python-
 a = 'C|Python|C++|C#|Java|Javascript|Python'
-print(a.index('Python')>1)#True
+print(a.index('C'))#0
+print(a.index('Python')>=0)#True
+
 print('Python' in a)#True
 r = re.findall('Python', a)# regular expression
 if len(r) > 0:
@@ -13,8 +15,9 @@ if len(r) > 0:
 else:
     print('Not includes')
 print(r)#['Python', 'Python']
-#output:
+# output:
+# 0
 # True
 # True
-# str includes "python"
+# a includes "python"
 # ['Python', 'Python']

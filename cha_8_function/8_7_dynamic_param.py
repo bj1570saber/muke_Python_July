@@ -6,8 +6,8 @@ def demo(param):
     print(param)
     print(type(param))
 
-demo(a)#('a', 'b', 'c')
-         #<class 'tuple'>
+demo(a) #('a', 'b', 'c') #<class 'tuple'>
+demo(b) #['a', 'b', 'c'] #<class 'list'>
 print('~'*20)
 
 # another way:
@@ -16,7 +16,7 @@ def demo_1(*param):
     print(type(param))
 
 demo_1(a)# it will print: 2D tuple:(('a', 'b', 'c'),)
-         #<class 'tuple'>
+         # <class 'tuple'>
 print('~'*20)
 # a fix:
 demo_1(*a)#('a', 'b', 'c') #<class 'tuple'>
@@ -32,7 +32,7 @@ def demo_2(param1, param2=2, *param):
 demo_2('a',1,2,3,4,'param')
 # a
 # 1
-# (2, 3, 4)
+# (2, 3, 4, 'param')
 print('~'*20)
 
 def demo_3(param1, *param, param2=2):
@@ -41,8 +41,11 @@ def demo_3(param1, *param, param2=2):
     print(param)
 
 demo_3('a',1,2,3,4,'param')
+# interpreter will automatically move param2's default value 
+# to the second place of the parameter list.
+
 # a
-# 2
+# 2 
 # (1, 2, 3, 4, 'param')
 
 # demo_2 and demo_3 are too complicate. 
