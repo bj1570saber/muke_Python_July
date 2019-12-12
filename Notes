@@ -10,3 +10,14 @@ python中x和y交换： x,y=y,x 2.主流用法： 爬虫，大数据，测试，
 1-6-1: #Web: Flash, Django; #Machine Learning: TensorFlow; #Glue language: Often use to glue different language modules together.
 1-7-1: The code should be efficient and easy to understand.
 1-7-2: Too many frameworks, libraries, techniques, but we should focus on the fundamental of a language.
+
+
+
+mkdir fisher
+cd fisher
+# install pipenv. https://cloud.tencent.com/developer/article/1446725
+pip install pipenv
+Or
+pip install --user pipenv
+#https://github.com/googlesamples/assistant-sdk-python/issues/236
+# setup project envirioument

@@ -41,7 +41,7 @@ def decorator_2(func):
         p()
         print(time.time())
         func()
-    return wrapper
+    return wrapper 
 
 @decorator_2
 def f_3():
@@ -52,3 +52,5 @@ def f_3():
     print(f_3.__name__)# f_3
 
 f_3()
+
+
