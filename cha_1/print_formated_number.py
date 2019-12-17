@@ -1,7 +1,7 @@
 print('100 + 200 = ',100+200)
 
 print('%02d-%02d' % (3, 1))# 03-01
-print('%2d-%2.2d' % (3, 1))# 3-01
+print('%2d-%2.2d' % (3, 1))# _3-01 a space before 3
 print('%07.2f' % 3.1415926)#0003.14  total length-> 7 including '.'
 
 addr = '123@163.com121212122'

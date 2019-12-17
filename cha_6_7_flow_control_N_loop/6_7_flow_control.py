@@ -26,3 +26,4 @@ elif b:
 
 # Better way:
 print(a or b)
+

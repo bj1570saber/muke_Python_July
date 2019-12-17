@@ -26,3 +26,17 @@ print()
 #slice
 b = a[0: len(a): 2]
 print(b)#[1, 3, 5]
+
+sum = 0
+n = 99
+while n > 0:
+    sum = sum + n
+    n = n - 2
+print(sum)
+
+sum = 0
+n=1
+while n < 100:
+    sum = sum + n
+    n = n + 2
+print(sum)

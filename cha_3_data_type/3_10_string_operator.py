@@ -71,3 +71,20 @@ print(len(b'ABC')) # 3
 print(len(b'\xe4\xb8\xad\xe6\x96\x87'))# 6
 print(len('中文'.encode('utf-8')))# 6
 # Conclude: 1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节。
+
+print(b'ABC'.decode('utf-8'))
+'''
+在操作字符串时，我们经常遇到str和bytes的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8
+编码对str和bytes进行转换。由于Python源代码也是一个文本文件，所以，当你的源代码中包含中文的
+时候，在保存源代码时，就需要务必指定保存为UTF-8编码。当Python解释器读取源代码时，为了让它按
+UTF-8编码读取，我们通常在文件开头写上这两行：
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
+第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出
+可能会有乱码。
+必须并且要确保文本编辑器正在使用UTF-8 without BOM编码:
+'''
+
+
+
