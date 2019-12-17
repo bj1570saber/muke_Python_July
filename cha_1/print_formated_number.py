@@ -12,3 +12,7 @@ print( "Value : %s" %  dict.setdefault('Age', None))#Value : 7
 print ("Value : %s" %  dict.setdefault('Sex', None))#Value : None
 print(dict.get('Name')+' love Python')#Zara love Python
 print(dict)#{'Name': 'Zara', 'Age': 7, 'Sex': None}
+
+#IO
+name = input('Hello, please enter your name: ')
+print('Welcome, ',name)

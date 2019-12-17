@@ -1,6 +1,7 @@
-print("Let's go.")
+print("Let's go.")#Let's go.
 # or
-print('Let\'s go.')
+print('Let\'s go.')#Let's go.
+print('I\'m \"OK\"')#I'm "OK"
 print('''
 Hello
 World
@@ -21,5 +22,4 @@ print(1+2\
 
 #print raw string: with - r
 print(r'I like \n')#I like \n
-
 
