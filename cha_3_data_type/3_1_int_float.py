@@ -46,3 +46,6 @@ print('~'*20)
 # modulo %
 print('10 % 3 = ', 10 % 3)# 10 % 3 =  1
 print(type(10 % 3))# <class 'int'>
+
+# Assign value to a variable is connecting them together.
+# Python的浮点数也没有大小限制，但是超出一定范围就直接表示为inf（无限大）。
