@@ -10,11 +10,14 @@ print('students[0]:%s' %(students[0])) # Jerry
 print('students[-1]:%s' %(students[-1]))#True
 print('students[-2]:%s' %(students[-2]))#10
 
+# Insert
 students.append('Jack')#append()
 print(students)# ['Jerry', 'Tom', 'Adm', 10, True, 'Jack']
 print('students[-2]:%s' %(students[-2]))#True  
 students.insert(1, 'Bob')#insert()
 print(students)#['Jerry', 'Bob', 'Tom', 'Adm', 10, True, 'Jack']
+
+# Delete
 students.pop()#pop
 print(students)#['Jerry', 'Bob', 'Tom', 'Adm', 10, True]
 students.pop(0)
@@ -25,6 +28,7 @@ print(students)#['Bob', 'Tom', ['asp', 'php'], 'Adm', 10, True]
 print(students[2][1])#php
 print(len(students))# 6
 
+#update:
 sentence = 'I love Python.'
 print(sentence[0])#I
 print(sentence[-3:])#on.
@@ -44,3 +48,7 @@ print(c)#['c', 'd']
 print(d)#['d']
 print(d*3)#['d', 'd', 'd']
 
+# sort()
+s = ['y','z','a','g']
+s.sort()
+print(s)#['a', 'g', 'y', 'z']

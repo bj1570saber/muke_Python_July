@@ -85,6 +85,15 @@ UTF-8编码读取，我们通常在文件开头写上这两行：
 可能会有乱码。
 必须并且要确保文本编辑器正在使用UTF-8 without BOM编码:
 '''
+print('~' * 20)
+# str immutable:
+a = 'abc'
+b = a.replace('a', 'A')
+print(b)# Abc
+print(a)# abc
+# https://www.liaoxuefeng.com/wiki/1016959663602400/1017104324028448
 
-
-
+dic = dict()
+#dic[(1,[2, 3])] = 'first' # TypeError: unhashable type: 'list'
+dic[(1, 2, 3)] = 'first' 
+print(dic) # {(1, 2, 3): 'first'}
