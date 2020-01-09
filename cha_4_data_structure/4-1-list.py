@@ -5,6 +5,7 @@ print(type((1)))#<class 'int'>
 print(type([1]))#<class 'list'>
 print(type([1,]))#<class 'list'>
 
+# get value
 print(students)
 print('students[0]:%s' %(students[0])) # Jerry
 print('students[-1]:%s' %(students[-1]))#True
