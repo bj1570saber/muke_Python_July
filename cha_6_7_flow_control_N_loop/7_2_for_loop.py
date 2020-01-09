@@ -1,3 +1,20 @@
+names = ['Michael', 'Bob', 'Tracy']
+for name in names:
+    print(name)
+print(20 * '~')
+
+sum = 0
+for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+    sum += x
+print(sum) # 55
+print(20 * '~')
+
+sum = 0
+for x in range(101): # 0...100
+    sum += x
+print(sum) # 5050
+print(20 * '~')
+
 # for else
 print('for else:', end = ' ')
 a = [[1,2,3,4],('a','b','c','d')]

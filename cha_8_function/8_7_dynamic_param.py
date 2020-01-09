@@ -1,4 +1,4 @@
-
+# https://www.liaoxuefeng.com/wiki/1016959663602400/1017261630425888
 a = ('a', 'b', 'c')
 b = ['a', 'b', 'c']
 # if ther are many parameters. you can put them in a tuple or list.
@@ -23,6 +23,7 @@ demo_1(*a)#('a', 'b', 'c') #<class 'tuple'>
 demo_1(*b)#('a', 'b', 'c') #<class 'tuple'>
 print('~'*20)
 
+# * function -> make a list or derefference a list
 # different type parameter's order：必须参数，默认参数，可变参数
 def demo_2(param1, param2=2, *param):
     print(param1)
